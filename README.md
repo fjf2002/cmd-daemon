@@ -1,6 +1,9 @@
 CMD-Daemon
 ===========
 
+Liest zeilenweise aus dem FIFO /tmp/cmd-daemon Kommandos
+und führt sie mittels bash aus.
+
 Installation
 ------------
 * Dateien watchdog.sh und cmd-daemon.sh nach /opt/cmd-daemon kopieren
