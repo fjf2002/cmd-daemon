@@ -10,7 +10,7 @@ set -euo pipefail
 ##############################################################
 
 # https://man7.org/linux/man-pages/man7/fifo.7.html
-FIFO="/tmp/cmd-daemon"
+FIFO="/opt/plcnext/cmd-daemon"
 if [[ ! -p "$FIFO" ]]; then
     mkfifo "$FIFO"
 fi
